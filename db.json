@@ -1,0 +1,109 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn Redux",
+      "status": false
+    },
+    {
+      "title": "Learn TypeScript",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Learn TypeScript",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "Learn React",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "Learn Mongo",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "Learn JavaScript",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "Learning",
+      "status": false,
+      "id": 7
+    },
+    {
+      "title": "Learn Rangoli",
+      "status": false,
+      "id": 8
+    },
+    {
+      "title": "Learn coding",
+      "status": false,
+      "id": 9
+    },
+    {
+      "title": "Learn Redux with axios",
+      "status": false,
+      "id": 10
+    },
+    {
+      "title": "Learn Redux with axios",
+      "status": false,
+      "id": 11
+    },
+    {
+      "title": "Learn Redux with fun",
+      "status": false,
+      "id": 12
+    },
+    {
+      "title": "Learn React with passion",
+      "status": false,
+      "id": 13
+    },
+    {
+      "title": "Learn React with passion",
+      "status": false,
+      "id": 14
+    },
+    {
+      "title": "Learn Mongo",
+      "status": false,
+      "id": 15
+    },
+    {
+      "title": "Learn Express",
+      "status": false,
+      "id": 16
+    },
+    {
+      "title": "Learn DSA",
+      "status": false,
+      "id": 17
+    },
+    {
+      "title": "Learn JavaScript",
+      "status": false,
+      "id": 18
+    },
+    {
+      "title": "Task 9",
+      "status": false,
+      "id": 19
+    },
+    {
+      "title": "Task 9",
+      "status": false,
+      "id": 20
+    },
+    {
+      "title": "Task 69",
+      "status": false,
+      "id": 21
+    }
+  ]
+}
