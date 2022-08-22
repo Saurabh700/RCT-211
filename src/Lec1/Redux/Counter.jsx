@@ -35,6 +35,7 @@ const Counter = () => {
       <div>
         {/* note-> handleInrement ko bhi invoke karna padega qki type:"Increment" handleIncrement ke return ke andar hai */}
         <button onClick={() => dispatch(handleIncrement())}>+</button>
+        {/* NOTE --> idhar mko object hi dispatch karna hai isilye return and invoke dono karna padega */}
         <button onClick={() => dispatch(handleDecrement())}>-</button>
       </div>
     </div>

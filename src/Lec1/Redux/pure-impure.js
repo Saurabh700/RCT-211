@@ -13,8 +13,8 @@ const addNumtoArrayImpure = (arr, n) => {
   arr.push(n);
   return arr;
 };
-let arr1 = [1, 2];
-console.log(addNumtoArrayImpure(arr1, 3));
+const arr1 = [1, 2];
+console.log(addNumtoArrayImpure(arr1, 3), "fsld");
 console.log(arr1);
 
 // this will mutate both arr1 and arr2 --> thats why it is not a pure function
@@ -28,3 +28,6 @@ const addNumtoArrayPure = (arr, n) => {
 let arr3 = [1, 2];
 console.log(addNumtoArrayPure(arr3, 3));
 console.log(arr3);
+let sd = [1, 2, 3];
+let of = [...sd];
+console.log(of === sd);

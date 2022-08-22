@@ -18,7 +18,7 @@ const Todo = () => {
     // Method 1
     //getTodos(dispatch); //we generally pass an object as a argument but here we are passing a method which is working but is not a good practice
 
-    // its just apneko habit hai dispatch ko bahar likhene ki isilye esa kia .. nhi to method1 is easy usme middleware/thunk likhne ki zarurat
+    // its just apneko habit hai dispatch ko bahar likhene ki isilye esa kia .. nhi to method1 is easy usme middleware/thunk likhne ki zarurat nahi
 
     // Method 2
     dispatch(getTodos);

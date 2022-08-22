@@ -16,6 +16,7 @@ import Homepage from "./W2Lec1_Thunks/Pages/Homepage";
 import MainRoutes from "./W2Lec2_MusicRecord/Pages/MainRoutes";
 import Debouncing from "./W2Lec4_customHook/Debouncing";
 import TodoPerformanceOptimise from "./W2Lec5_PerformanceOptimisation/Todo/Todo";
+import SearchBar from "./W3Lec5_PSC_SearchBar/Components/SearchBar";
 
 function App() {
   // const isAuth = useSelector((store) => store.AuthReducer.isAuth);
@@ -45,7 +46,7 @@ function App() {
   return (
     <div>
       {/* Lec1 */}
-      {/* <Counter /> */}
+      <Counter />
       {/* Lec2 */}
       {/* <Counter2 />
       <Todo /> */}
@@ -76,6 +77,8 @@ function App() {
       {/* <Debouncing /> */}
       {/* W2L5 */}
       {/* <TodoPerformanceOptimise /> */}
+      {/* W3L5 -> PSC SearchBar */}
+      <SearchBar />
     </div>
   );
 }

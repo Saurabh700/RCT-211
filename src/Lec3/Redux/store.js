@@ -54,5 +54,5 @@ const store = legacy_createStore(
 export { store };
 
 // middlewares --> something that is between two entities
-// dispatch(action) ----(middleware)---> reducer
+// dispatch(action) ----> (middleware) ---> reducer
 // middlewares have access to action before they reaches the reducer so that we can perform additional logic on that action

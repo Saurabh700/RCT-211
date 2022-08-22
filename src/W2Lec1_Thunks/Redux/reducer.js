@@ -27,7 +27,7 @@ const reducer = (oldState = initState, { type, payload }) => {
         isLoading: false,
         isError: false,
         tasks: payload,
-        // here payload is already an array and since are getting it from server thats why if will store in memory in a new reference thats why we dont need to spread it
+        // here payload is already an array and since are getting it from server thats why it will store in memory in a new reference thats why we dont need to spread it
       };
     }
     case GET_TASKS_FAILURE: {

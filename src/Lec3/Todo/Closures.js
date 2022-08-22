@@ -21,6 +21,28 @@ console.log(sum2(2)(3));
 
 // Tarika 3
 const sum3 = (a) => (b) => {
-  return a + b;
+  // return a + b;
+  console.log(a + b);
 };
-console.log(sum3(2)(3));
+// console.log(sum3(2)(3), "sum");
+sum3(8)(9);
+
+// -------
+
+// const sum2 = (a) => (b) => {
+//   return a + b;
+// };
+
+// function companyname() {
+//   var name = "masai";
+//   function displayName() {
+//     console.log(name);
+//   }
+//   displayName();
+// }
+// companyname();
+const companyname = (name) => () => {
+  console.log(name);
+};
+
+companyname("masai")();
